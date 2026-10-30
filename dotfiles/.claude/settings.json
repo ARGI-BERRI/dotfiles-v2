@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "language": "japanese",
+  "autoUpdatesChannel": "stable",
+  "effortLevel": "high",
+  "showThinkingSummaries": true,
+  "alwaysThinkingEnabled": true,
+  "permissions": {
+    "deny": [
+      "Read(~/.netrc)",
+      "Read(~/.ssh/**)",
+      "Read(~/.aws/**)",
+      "Read(~/.profile_local)",
+      "Read(~/.bash_local)",
+      "Read(.env)",
+      "Read(.env.*)",
+      "Read(secrets/**)",
+      "Read(secret/**)",
+      "Write(~/.netrc)",
+      "Write(~/.ssh/**)",
+      "Write(~/.aws/**)",
+      "Write(~/.profile_local)",
+      "Write(~/.bash_local)",
+      "Write(.env)",
+      "Write(.env.*)",
+      "Write(secrets/**)",
+      "Write(secret/**)",
+      "Bash(* ~/.netrc*)",
+      "Bash(* ~/.ssh/**)",
+      "Bash(* ~/.aws/**)",
+      "Bash(* ~/.profile_local*)",
+      "Bash(* ~/.bash_local*)",
+      "Bash(* .env)",
+      "Bash(* .env.*)",
+      "Bash(* ./secrets/**)",
+      "Bash(* ./secret/**)"
+    ],
+    "ask": [
+      "WebFetch",
+      "Bash(wget *)",
+      "Bash(curl *)",
+      "Bash(ping *)",
+      "Bash(nc *)",
+      "Bash(ssh *)",
+      "Bash(scp *)",
+      "Bash(sftp *)",
+      "Bash(rm -rf *)",
+      "Bash(env)",
+      "Bash(printenv)"
+    ]
+  },
+  "env": {
+    "CLAUDE_CODE_ENABLE_TELEMETRY": "0",
+    "DISABLE_FEEDBACK_COMMAND": "1",
+    "DISABLE_TELEMETRY": "1"
+  }
+}

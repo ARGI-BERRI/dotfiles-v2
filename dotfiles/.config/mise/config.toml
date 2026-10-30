@@ -1,0 +1,46 @@
+[tools]
+awscli = "latest"
+azure = "latest"
+bat = "latest"
+btop = "latest"
+codex = "latest"
+dust = "latest"
+eza = "latest"
+fzf = "latest"
+gh = "latest"
+jq = "latest"
+kubectl = "latest"
+kubeseal = "latest"
+neovim = "latest"
+node = "lts"
+python = "3.14"
+ripgrep = "latest"
+shellcheck = "latest"
+starship = "latest"
+terraform = "latest"
+usage = "latest"
+uv = "latest"
+zoxide = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["python", "node"]
+
+[settings.dotfiles]
+# Resolve the checkout's dotfiles directory through the global config symlink.
+root = "{{ config_source | canonicalize | dirname | dirname | dirname }}"
+
+[dotfiles]
+"~/.aliases" = {}
+"~/.bashrc" = {}
+"~/.profile" = {}
+"~/.claude/settings.json" = {}
+"~/.codex/AGENTS.md" = {}
+"~/.codex/config.toml" = {}
+"~/.config/git/config" = {}
+"~/.config/git/gitignore_global" = {}
+"~/.config/mise/config.toml" = {}
+"~/.config/nano/nanorc" = {}
+"~/.config/nvim/**/*.lua" = {}
+"~/.config/readline/inputrc" = {}
+"~/.config/screen/screenrc" = {}
+"~/.config/starship/starship.toml" = {}

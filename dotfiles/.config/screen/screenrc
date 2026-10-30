@@ -1,0 +1,16 @@
+# shellcheck disable=SC2148
+
+# Enforce 256 color
+term screen-256color
+
+# Status line
+hardstatus off
+hardstatus alwayslastline '%{= G}[ %{G}%H %{g}][%= %{= w}%?%-Lw%?%{= R}%n*%f %t%?%{= R}(%u)%?%{= w}%+Lw%?%= %{= g}][%{B}%Y-%m-%d %{W}%c:%s %{g}]'
+
+# Disable welcome message
+startup_message off
+
+# Enable scrollbar
+termcapinfo xterm* ti@:te@
+
+altscreen on

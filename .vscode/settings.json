@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    ".aliases": "shellscript",
+    ".bashrc": "shellscript",
+    ".profile": "shellscript",
+    "config": "properties",
+    "*rc": "shellscript",
+    "gitignore_global": "gitignore"
+  }
+}

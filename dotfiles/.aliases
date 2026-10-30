@@ -1,0 +1,28 @@
+#!/bin/sh
+# shellcheck disable=SC2148
+
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias mkdir='mkdir -p'
+
+alias which='type -a'
+alias job='jobs -l'
+
+alias df='df -kTh'
+
+alias grep='grep --color=auto'
+alias fgrep='grep -F --color=auto'
+alias egrep='grep -E --color=auto'
+
+alias wget=wget --hsts-file='$XDG_DATA_HOME/wget-hsts'
+
+alias ls='eza -F'
+alias ll='eza --header -l -F'
+alias lt='eza --header -l -F -T'
+
+alias du='dust -p -X .git'
+
+alias ..='cd ..'
+
+alias vim='nvim'

@@ -1,0 +1,13 @@
+format = '\[$time\] $username@$hostname: $directory$all $character'
+
+[time]
+disabled = false
+format = '[$time](gray)'
+
+[username]
+show_always = true
+format = "[$user](bold yellow)"
+
+[hostname]
+ssh_only = false
+format = "[$hostname](green)"

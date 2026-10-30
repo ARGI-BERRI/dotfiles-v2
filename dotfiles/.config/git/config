@@ -1,0 +1,11 @@
+[commit]
+	gpgsign = true
+
+[gpg]
+	format = ssh
+
+[init]
+	defaultBranch = main
+
+[core]
+	excludesFile = ~/.config/git/gitignore_global
