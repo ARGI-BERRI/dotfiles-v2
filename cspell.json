@@ -1,16 +1,21 @@
 {
-    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
-    "version": "0.2",
-    "language": "en",
-    "dictionaries": [
-        "python"
-    ],
-    "words": [
-        "shellcheck",
-        "simdjson"
-    ],
-    "ignorePaths": [
-        "coverage/**/*",
-        "pnpm-lock.yaml"
-    ]
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": [
+    "bash",
+    "companies",
+    "en_US",
+    "misc",
+    "python",
+    "softwareTerms"
+  ],
+  "ignoreWords": [
+    "augroup",
+    "autocmd",
+    "gpgsign"
+  ],
+  "ignorePaths": [
+    "dotfiles/.config/git/gitignore_global"
+  ]
 }

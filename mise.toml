@@ -1,4 +1,5 @@
 [tools]
+cspell = "latest"
 shellcheck = "latest"
 
 [tasks.container]
